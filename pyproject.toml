@@ -9,7 +9,12 @@ packages = [{include = "clips_auto_sender"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 google-api-python-client = "^2.108.0"
-
+google-auth-oauthlib = "^1.1.0"
+pillar-youtube-upload = "^0.3.0"
+bcrypt = "^4.0.1"
+celery = "^5.3.5"
+redis = "^5.0.1"
+flower = "^2.0.1"
 
 [build-system]
 requires = ["poetry-core"]
